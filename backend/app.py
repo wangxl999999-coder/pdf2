@@ -108,7 +108,7 @@ def merge_pdfs():
             return jsonify({
                 "success": True,
                 "message": "PDF合并成功",
-                "downloadUrl": f"/api/download/{output_filename}",
+                "downloadUrl": f"/download/{output_filename}",
                 "filename": "merged.pdf"
             })
         except Exception as e:
@@ -229,7 +229,7 @@ def process_pdf():
         return jsonify({
             "success": True,
             "message": "PDF处理成功",
-            "downloadUrl": f"/api/download/{output_filename}",
+            "downloadUrl": f"/download/{output_filename}",
             "filename": "processed.pdf",
             "totalPages": len(final_order)
         })
