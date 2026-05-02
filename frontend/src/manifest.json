@@ -1,0 +1,98 @@
+{
+    "name" : "PDF处理工具",
+    "appid" : "__UNI__PDFTOOL",
+    "description" : "PDF合并、PDF页面调整工具",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {},
+        "distribute" : {
+            "android" : {
+                "permissions" : []
+            },
+            "ios" : {},
+            "splashScreen" : {
+                "androidStyle" : "default",
+                "iosStyle" : "default"
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "enhance" : true,
+            "postcss" : true,
+            "preloadBackgroundData" : false,
+            "minified" : true,
+            "newFeature" : false,
+            "coverView" : true,
+            "nodeModules" : false,
+            "autoAudits" : false,
+            "showShadowRootInWxmlPanel" : true,
+            "scopeDataCheck" : false,
+            "uglifyFileName" : false,
+            "checkInvalidKey" : true,
+            "checkSiteMap" : true,
+            "uploadWithSourceMap" : true,
+            "compileHotReLoad" : false,
+            "lazyloadPlaceholderEnable" : false,
+            "useMultiFrameRuntime" : true,
+            "useApiHook" : true,
+            "useApiHostProcess" : true,
+            "babelSetting" : {
+                "ignore" : [],
+                "disablePlugins" : [],
+                "outputPath" : ""
+            },
+            "enableEngineNative" : false,
+            "useIsolateContext" : true,
+            "userConfirmedBundleSwitch" : false,
+            "packNpmManually" : false,
+            "packNpmRelationList" : [],
+            "minifyWXSS" : true,
+            "disableUseStrict" : false,
+            "minifyWXML" : true,
+            "showES6CompileOption" : false,
+            "checkPluginsIDEInvoking" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "您的位置信息将用于小程序位置接口的效果展示"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "h5" : {
+        "title" : "PDF处理工具",
+        "router" : {
+            "mode" : "hash",
+            "base" : "./"
+        }
+    },
+    "vueVersion" : "3"
+}
