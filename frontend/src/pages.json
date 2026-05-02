@@ -1,0 +1,29 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "PDF处理工具"
+			}
+		},
+		{
+			"path": "pages/merge/merge",
+			"style": {
+				"navigationBarTitleText": "PDF合并"
+			}
+		},
+		{
+			"path": "pages/process/process",
+			"style": {
+				"navigationBarTitleText": "PDF调整"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "PDF处理工具",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
